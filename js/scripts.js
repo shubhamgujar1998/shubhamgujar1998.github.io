@@ -2,7 +2,7 @@ $(function () {
 
     // init typist
     new Typist(document.querySelector(".typist"), {
-        letterInterval: 60,
+        letterInterval: 79,
         textInterval: 1000
     });
 
@@ -76,7 +76,7 @@ $(function () {
         arrows: false
     });
 
-    /**Theme switcher - DEMO PURPOSE ONLY s*/
+    /**Theme switcher*/
     $('.switcher-trigger').click(function () {
         $('.switcher-wrap').toggleClass('active');
     });
